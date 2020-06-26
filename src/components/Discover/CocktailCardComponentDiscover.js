@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-export default function CocktailCardComponent(props) {
+export default function CocktailCardComponentDiscover(props) {
   const URL = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
   const [flipped, isFlipped] = useState(false);
   const [ingredients, setIngredients] = useState("");

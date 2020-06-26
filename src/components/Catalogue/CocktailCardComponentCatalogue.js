@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-export default function CocktailCardComponent(props) {
+export default function CocktailCardComponentCatalogue(props) {
   const [flipped, isFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -87,7 +87,7 @@ const CocktailCard = styled.div`
   width: 10rem;
   background-image: linear-gradient(to bottom right, rgba(24, 24, 24), black);
   border-radius: 15px;
-  margin: 0;
+  margin: 1rem;
   overflow: scroll;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {

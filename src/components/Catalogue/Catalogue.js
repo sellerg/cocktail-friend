@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import CocktailCardComponent from "./CocktailCardComponent";
+import CocktailCardComponentCatalogue from "./CocktailCardComponentCatalogue";
 
 export default function Catalogue() {
   const URL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?f=";
@@ -109,7 +109,10 @@ export default function Catalogue() {
       <CocktailCardWrapper>
         {cocktail ? (
           cocktail.map((drink) => (
-            <CocktailCardComponent key={drink.strDrink} drink={drink} />
+            <CocktailCardComponentCatalogue
+              key={drink.strDrink}
+              drink={drink}
+            />
           ))
         ) : (
           <CocktailCard>

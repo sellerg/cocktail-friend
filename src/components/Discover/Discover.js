@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import CocktailCardComponent from "./CocktailCardComponent";
+import CocktailCardComponentDiscover from "./CocktailCardComponentDiscover";
 
 export default function Discover() {
   const URL = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=";
@@ -69,7 +69,7 @@ export default function Discover() {
         <CocktailCardWrapper>
           {error !== "error" ? (
             cocktail.map((drink) => (
-              <CocktailCardComponent
+              <CocktailCardComponentDiscover
                 key={drink.strDrink}
                 drink={drink}
                 ingredient={`${URLingredient}${drink.idDrink}`}
