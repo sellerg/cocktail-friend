@@ -38,6 +38,7 @@ const Main = styled.main`
   align-items: center;
   padding-top: 4rem;
   height: 100vh;
+  background-color: black;
   background-image: url(${homeImage});
   background-size: cover;
   background-repeat: no-repeat;

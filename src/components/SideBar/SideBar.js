@@ -7,13 +7,22 @@ export default function SideBar(props) {
     <Sidebar showSideBar={props.showSideBar}>
       <ul>
         <li>
-          <Sideitem to="/catalogue">Catalogue</Sideitem>
+          <Sideitem to="/" onClick={props.handleBackDropClick}>
+            Home
+          </Sideitem>
+        </li>
+        <li>
+          <Sideitem to="/catalogue" onClick={props.handleBackDropClick}>
+            Catalogue
+          </Sideitem>
         </li>
         <li>
           <Sideitem onClick={props.handleToggleRandom}>Random</Sideitem>
         </li>
         <li>
-          <Sideitem to="/discover">Discover</Sideitem>
+          <Sideitem to="/discover" onClick={props.handleBackDropClick}>
+            Discover
+          </Sideitem>
         </li>
       </ul>
     </Sidebar>

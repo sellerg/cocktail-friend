@@ -85,6 +85,7 @@ function App() {
           showSideBar={sideBarOpen}
           handleToggleRandom={handleToggleRandom}
           handleRandomClick={handleRandomClick}
+          handleBackDropClick={handleBackDropClick}
         />
         {backDrop}
         {backdroprandom}

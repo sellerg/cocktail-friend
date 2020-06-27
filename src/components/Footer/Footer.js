@@ -1,20 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-import facebookIcon from "./../../assets/facebook1.png";
 import linkedinIcon from "./../../assets/linkedin1.png";
 import githubIcon from "./../../assets/github.png";
 
 export default function Footer() {
   return (
     <MediaLinks>
-      <a
-        href="https://www.facebook.com/greg.seller.1/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <Img src={facebookIcon} alt="facebook" />
-      </a>
       <a
         href="https://www.linkedin.com/in/greg-seller-7173431ab"
         rel="noopener noreferrer"
