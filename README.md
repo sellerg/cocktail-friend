@@ -1,6 +1,10 @@
 ## Cocktail Friend
 
+[Cocktail Friend](https://cocktailfriend.netlify.app/)
+
+![](discoverScreen.gif)
 ![](catalogueScreen.gif)
+![](randomScreen.gif)
 
 
 
