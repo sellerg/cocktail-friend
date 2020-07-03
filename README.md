@@ -12,7 +12,7 @@ This application makes use of [TheCocktailDB API](https://www.thecocktaildb.com/
 
 ![](randomScreen.gif)
 
-## Roadmap :building_construction:
+## Roadmap :world_map:
 
 - query TheCocktailDB API
 - Format cockatils by first letter
@@ -20,7 +20,7 @@ This application makes use of [TheCocktailDB API](https://www.thecocktaildb.com/
 - Make it look visually appealing
 - Deploy to netlify
 
-## Available Scripts
+## Available Scripts :building_construction:
 
 In the project directory, you can run:
 
