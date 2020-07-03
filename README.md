@@ -3,7 +3,7 @@
 ## [Visit Site](https://cocktailfriend.netlify.app/)
 
 The aim of the site is to provide a clean and simple application for users to dicover new and exiting cocktails. 
-This application make suse of [TheCocktailDB API](https://www.thecocktaildb.com/api.php)
+This application makes use of [TheCocktailDB API](https://www.thecocktaildb.com/api.php)
 
 ![](discoverScreen.gif)
 ![](catalogueScreen.gif)
