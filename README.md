@@ -1,13 +1,16 @@
 # Cocktail Friend :cocktail:<br />
 
-## [Visit Site](https://cocktailfriend.netlify.app/)<br />
+## [Visit Site](https://cocktailfriend.netlify.app/)
+
 
 The aim of the site is to provide a clean and simple application for users to dicover new and exiting cocktails. 
 This application makes use of [TheCocktailDB API](https://www.thecocktaildb.com/api.php)<br />
 
-![](discoverScreen.gif)<br />
-![](catalogueScreen.gif)<br />
-![](randomScreen.gif)<br />
+![](discoverScreen.gif)
+
+![](catalogueScreen.gif)
+
+![](randomScreen.gif)
 
 ## Roadmap :building_construction:
 
