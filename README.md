@@ -1,3 +1,10 @@
+## Cocktail Friend
+
+![](CatalogueGIF.mp4)
+![](DiscoverGIF.mp4)
+![](RandomGIF.mp4)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). :blush:
 
 ## Available Scripts
